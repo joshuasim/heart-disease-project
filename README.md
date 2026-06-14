@@ -67,9 +67,9 @@ heart-disease-classification/
 ## Methodology
 
 **Exploratory Data Analysis (`01_eda.ipynb`):**  
-
-I analyzed feature distributions, bivariate relationships with target, and correlation 
-structure. **Key findings:** `ca`, `thal`, `oldpeak`, `cp`, and `thalach` are the strongest 
+I performed univariate analysis on feature distributions, bivariate analysis of each 
+feature's relationship with the target, and correlation analysis to quantify and confirm 
+these relationships. **Key findings:** `ca`, `thal`, `oldpeak`, `cp`, and `thalach` are the strongest 
 predictors. Missing values found in `ca` (4) and `thal` (2), outliers in `chol` and 
 `trestbps`, and heavy right skew in `oldpeak`. Target variable binarization was motivated 
 by consistent overlap between severity categories 1–4.
